@@ -33,8 +33,8 @@ class SpeechDetector:
         self.num_phrases = -1
 
         # These will need to be modified according to where the pocketsphinx folder is
-        MODELDIR = "C:/users/miche/voice/voice/lib/site-packages/pocketsphinx/model"
-        DATADIR = "../users/miche/voice/voice/lib/site-packages/pocketsphinx/test/data"
+        MODELDIR = "../lib/site-packages/pocketsphinx/model"
+        DATADIR = "../lib/site-packages/pocketsphinx/test/data"
 
         # Create a decoder with certain model
         config = Config()
